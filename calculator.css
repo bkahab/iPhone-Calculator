@@ -1,0 +1,135 @@
+body {
+   background-color: #242627;
+    display         : flex;
+    justify-content : center;
+}
+
+.container {
+    margin-top : 10px;
+    width      : auto;
+    height     : 550px;
+    padding-top: 50px;
+}
+
+.PAPA{
+    border     : 2px solid #242627;
+    background-color: #000;
+    width: 350px;
+    height: 490px;
+    padding-top: 80px;
+    border-radius: 20px;
+}
+
+.block-input {
+    width           : 350px;
+    height          : 90px;
+    background-color: #000;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    border-radius   : 20px 20px 10px 10px;
+}
+
+.input {
+    width           : 300px;
+    font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height          : 70px;
+    font-size       : 70px;
+    color           : #e7e7e7;
+    margin-top      : 10px;
+    text-align      : end;
+    background-color: #000;
+    border-radius   : 20px 20px 5px 5px;
+    border          : none;
+}
+
+.buttons {
+    width           : 350px;
+    height          : 400px;
+    background-color: #000;
+    border-radius   : 10px 10px 20px 20px;
+    display         : flex;
+}
+
+.btn {
+    width        : 70px;
+    height       : 70px;
+    border-radius: 50px;
+    border       : none;
+    cursor       : pointer;
+}
+
+.btn:hover {
+    background-color: #c8c8c8;
+    transition      : 1s;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.orng {
+    color      : #e7e7e7;
+    margin-left: 14px;
+    font-size  : 27px;
+    transition : 0.5s;
+}
+
+.ravn {
+    color           : #e7e7e7;
+    margin-left     : 14px;
+    font-size       : 27px;
+    transition      : 0.3s;
+    background-color: #ed8702;
+    width           : 70px;
+    height          : 70px;
+    border-radius   : 50px;
+    border          : none;
+    cursor          : pointer;
+}
+
+.ravn:hover {
+    background-color: #e7e7e7;
+    color           : #ed8702;
+}
+
+.lgr {
+    background-color: #b8b2b2;
+    color           : #000;
+    margin-left     : 14px;
+    margin-top      : 14px;
+    font-size       : 22px;
+}
+
+.imp {
+    margin-left     : 14px;
+    margin-top      : 14px;
+    background-color: #ed8702;
+    color           : #e7e7e7;
+    transition      : 0.5s;
+}
+
+.lightGrey {
+    width : 370px;
+    height: 90px;
+}
+
+.numbers {
+    width : 370px;
+    height: 310px;
+}
+
+.nmb {
+    margin-left     : 14px;
+    margin-top      : 5px;
+    font-size       : 27px;
+    background-color: #242627;
+    color           : #e7e7e7;
+}
+
+.zero {
+    width       : 154px;
+    height      : 70px;
+    text-align  : start;
+    padding-left: 20px;
+}
